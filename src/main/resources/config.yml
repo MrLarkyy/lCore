@@ -1,0 +1,103 @@
+nopermission: "&cYou have no permissions to do that!"
+notonline: "&cPlayer &4%player%&c is not online!"
+unknownworld: "&cWorld &4%world%&c does not exist!"
+availableworlds: "&cAvailable worlds: %worlds%"
+enablewelcomemessages: true
+joinmsg: "&2[+]&a %player%"
+leavemsg: "&4[-]&c %player%"
+servermotd: "&aA Minecraft server using &2lCore\n&fJoin now and play with other players!"
+welcome:
+  title: "&a&lWELCOME %player%"
+  subtitle: "&fOn our server!"
+  fadein: 20
+  stay: 20
+  fadeout: 20
+  message:
+    - "&fWelcome &d%player%&f on"
+    - "&four &bserver&f!"
+enabledeathmessage: true
+deathmsg: "&4%player%&c just died!"
+permissions:
+  broadcast:
+    player: "lCore.broadcast"
+  fly:
+    player: "lCore.fly"
+    other: "lCore.fly.other"
+  world:
+    player: "lCore.world"
+    other: "lCore.world.other"
+  heal:
+    player: "lCore.heal"
+    other: "lCore.heal.other"
+  teleport:
+    player: "lCore.teleport"
+    other: "lCore.teleport.other"
+  sun:
+    player: "lCore.weather.sun"
+  rain:
+    player: "lCore.weather.rain"
+  time:
+    day: "lCore.time.day"
+    night: "lCore.time.night"
+  gamemode:
+    player: "lCore.gamemode"
+    other: "lCore.gamemode.other"
+  suicide:
+    player: "lCore.suicide"
+  message:
+    player: "lCore.message"
+  reply:
+    player: "lCore.reply"
+sounds:
+  success: ENTITY_PLAYER_LEVELUP
+  failed: BLOCK_ANVIL_PLACE
+  broadcast: ENTITY_PLAYER_LEVELUP
+  message: ENTITY_CHICKEN_EGG
+commands:
+  message:
+    to: "&eYou &6-> &e%target%&6: &f%message%"
+    from: "&e%player% &6-> &eYou&6: &f%message%"
+    usage: "&cUnknown usage! (/message <player> <message>)"
+  reply:
+    noreply: "&cThere is no player to reply!"
+    usage: "&cUnknown usage! (/reply <message>)"
+  broadcast:
+    usage: "&cUnknown usage! (/broadcast <message>)"
+  world:
+    player: "&aYou have been teleported to world &2%world%&a!"
+    other: "&aYou have teleported &2%player%&a to world &2%world%&a!"
+    fromplayer: "&aYou have been teleported by &2%player%&a to world &2%world%&a!"
+    usage: "&cUnknown usage! (/world <worldname>)"
+  fly:
+    player: "&aYour flight was %state%&a!"
+    other: "&aFlight of &2%player%&a was %state%&a!"
+    fromplayer: "&aYour flight was %state%&a by &2%player%&a!"
+    enabled: "&2Enabled"
+    disabled: "&4Disabled"
+  suicide:
+    player: "&aYou have killed yourself!"
+  heal:
+    player: "&aYou have healed yourself!"
+    other: "&aYou have healed &2%player%&a!"
+    fromplayer: "&aYou have been healed by &2%player%&a!"
+  teleport:
+    player: "&aYou have been teleported to player &2%player%&a!"
+    other: "&aYou have teleported &2%player%&a to &2%other%&a!"
+    usage:  "&cUnknown usage! (/teleport <player> [player])"
+    fromplayer: "&aYou have been teleported by &2%player%&a to &2%other%&a!"
+  sun:
+    player: "&aYou have toggled off a rain in world &2%world%&a!"
+    notraining: "&cThere is no rain in world &4%world%&c!"
+  rain:
+    player: "&aYou have toggled on a rain in world &2%world%&a!"
+    raining: "&cThere is already raining in world &4%world%&c!"
+  day:
+    player: "&aYou have set day in world &2%world%&a!"
+  night:
+    player: "&aYou have set night in world &2%world%&a!"
+  gamemode:
+    player: "&aYour gamemode has been set to &2%gamemode%&a!"
+    other: "&aYou have set gamemode &2%gamemode%&a to player &2%player%&a!"
+    usage: "&cUnknown usage! (/gamemode <gamemode> <player>)"
+    modes: "&cAvailable gamemodes: 0, 1, 2, 3"
+    fromplayer: "&aYour gamemode has been set to &2%gamemode%&a by &2%player%&a!"

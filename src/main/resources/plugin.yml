@@ -1,0 +1,35 @@
+name: lCore
+version: ${project.version}
+main: lcore.LCore
+commands:
+  heal:
+    description: Heal
+  sun:
+    description: Sun
+  rain:
+    description: Rain
+  day:
+    description: Day
+  night:
+    description: Night
+  teleport:
+    aliases: [tp]
+    description: Teleport
+  suicide:
+    description: Suicide
+  gamemode:
+    aliases: [gm]
+    description: Gamemode
+  fly:
+    description: Fly
+  world:
+    description: World
+  broadcast:
+    aliases: [bc]
+    description: Broadcast
+  message:
+    aliases: [msg]
+    description: Message
+  reply:
+    aliases: [r]
+    description: Reply
